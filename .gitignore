@@ -1,0 +1,89 @@
+# --------------------------------------------------
+# macOS metadata
+# --------------------------------------------------
+.DS_Store
+
+# --------------------------------------------------
+# Xcode user-specific files
+# Local UI state, breakpoints, and personal settings.
+# Do not share these in Git.
+# --------------------------------------------------
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# User-specific data inside Xcode project/workspace bundles
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# --------------------------------------------------
+# Build output
+# Generated locally by Xcode.
+# --------------------------------------------------
+build/
+DerivedData/
+
+# --------------------------------------------------
+# App archives and debug symbol artifacts
+# --------------------------------------------------
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# --------------------------------------------------
+# Swift Playgrounds
+# --------------------------------------------------
+timeline.xctimeline
+playground.xcworkspace
+
+# --------------------------------------------------
+# Fastlane generated artifacts
+# --------------------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# --------------------------------------------------
+# Editor / temporary files
+# --------------------------------------------------
+*.swp
+*.lock
+
+docs/
+instruction.md
+
+# --------------------------------------------------
+# Datasets (JANGAN pernah di-commit — gede & bukan code)
+# --------------------------------------------------
+data/
+datasets/
+SisFall_dataset/
+*.zip
+
+# --------------------------------------------------
+# Rekaman wrist CSV dari app
+# --------------------------------------------------
+*.csv
+WristData/
+recordings/
+P1/
+P2/
+P3/
+
+# --------------------------------------------------
+# ML model artifacts (bisa gede)
+# --------------------------------------------------
+*.mlmodel
+*.mlpackage
+*.mlmodelc
+
+# --------------------------------------------------
+# Python (buat preprocessing nanti)
+# --------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
