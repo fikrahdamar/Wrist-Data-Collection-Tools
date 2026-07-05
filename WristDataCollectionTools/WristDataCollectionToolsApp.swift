@@ -11,7 +11,7 @@ import SwiftUI
 struct WristDataCollectionToolsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhoneContentView()
         }
     }
 }
