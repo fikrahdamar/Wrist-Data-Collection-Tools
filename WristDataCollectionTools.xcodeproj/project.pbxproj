@@ -414,6 +414,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WristDataCollectionToolsWatch;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Merekam data gerakan untuk riset fall detection";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.fdamars.WristDataCollectionTools;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,6 +448,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WristDataCollectionToolsWatch;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Merekam data gerakan untuk riset fall detection";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.fdamars.WristDataCollectionTools;
 				LD_RUNPATH_SEARCH_PATHS = (
