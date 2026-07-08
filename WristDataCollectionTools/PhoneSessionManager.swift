@@ -37,6 +37,11 @@ final class PhoneSessionManager: NSObject, ObservableObject, WCSessionDelegate {
         try? FileManager.default.copyItem(at: file.fileURL, to: dest)
         reload()
     }
+    
+    func delete(_ url: URL) {
+        try? FileManager.default.removeItem(at: url)
+        reload()
+    }
 
     func session(_ s: WCSession, activationDidCompleteWith state: WCSessionActivationState, error: Error?) {}
     func sessionDidBecomeInactive(_ s: WCSession) {}
